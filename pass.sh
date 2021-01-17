@@ -1,27 +1,18 @@
 #!/bin/bash
 
-
-YELLOW=$(tput setaf 3)
-GREEN=$(tput setaf 2)
-RED=$(tput setaf 1)
-BLUE=$(tput setaf 4)
-GGG=$(tput setaf 5)
-CYN=$(tput setaf 7)
-STAND=$(tput sgr 0)
-BOLD=$(tput bold)
 pwd=$(pwd)
 
-echo -e $RED "
+echo -e "
   ╺┓    ┏━┓         ╻ ╻   ┏━┓   ┏━┓   ╺┳┓
    ┃    ┗━┫   ╺━╸   ┃╻┃   ┃ ┃   ┣┳┛    ┃┃
   ╺┻╸   ┗━┛         ┗┻┛   ┗━┛   ╹┗╸   ╺┻┛"
 echo -e "                              "
-echo -e "$BLUE$BOLD Simple Password Maker for SocialMedia BrutForce $STAND "
-echo -e "$BOLD Input tagret profile info.. $STAND"
+echo -e " Simple Password Maker for SocialMedia BrutForce "
+echo -e " masukan profile target.. "
 echo -e ""
-echo -e " nama korban        : \c"
+echo -e " nama target        : \c"
 read fname
-echo -e " nama bapa korban   : \c"
+echo -e " nama bapa target   : \c"
 read lname
 echo -e " tarikh hari lahir  : \c"
 read day
@@ -30,7 +21,7 @@ read month
 echo -e " tarikh tahun lahir : \c"
 read year
 echo ""
-echo -e " nama senarai katalaluan : \c"
+echo -e " nama senarai disimpan : \c"
 read name
 
 # echo -e " no IC tengah  : \c"
@@ -68,13 +59,12 @@ echo -e "$fname\a-$old" >> pass.pass.txt
 
 
 
-echo -e "$STAND"
+echo -e ""
 rm -f $name.txt
 
 cat pass.pass.txt | tr -d '' > $name
 
 rm -f pass.pass.txt
 echo ""
-echo -e " You Password Woldlist on$GREEN$BOLD $pwd/$name $STAND"
-echo -e " You Can Only Input$RED$BOLD 19 WordList (facebook)$STAND Before You Get Limited Login."
-echo -e "$BOLD GOOD LUCK.. GOD BLESS YOU\n"
+echo -e " You Password Woldlist on$GREEN$BOLD $pwd/$name"
+echo -e " GOOD LUCK.. GOD BLESS YOU\n"
