@@ -66,5 +66,5 @@ cat pass.pass.txt | tr -d '' > $name
 
 rm -f pass.pass.txt
 echo ""
-echo -e " You Password Woldlist on$GREEN$BOLD $pwd/$name"
+echo -e " You Password Woldlist on $pwd/$name"
 echo -e " GOOD LUCK.. GOD BLESS YOU\n"
