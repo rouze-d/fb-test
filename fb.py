@@ -5,12 +5,10 @@ import os,sys,time
 try:
 	import requests
 except:
-	os.system('pkg install pip')
 	os.system('pip install requests')
 try:
 	import pyfiglet
 except:
-	os.system('pkg install pip')
 	os.system('pip install requests')
 #os.system('clear')
 
@@ -51,6 +49,6 @@ def request():
 if __name__=='__main__':
 	name = ("\n\n ---------- Facebook BruteForce -----------")
 	print(name)
-	print(" *** [  Untuk Godam Akaun Facebook  ] ***\n\n cara kerjanya:\n mamasukan pasaword berulang2.. sehingga menemukan password yg TEPAT!!\n Kena tahu cara kerjanya juga.\n\n")
+	print(" *** [  Untuk Godam Akaun Facebook  ] ***\n\n cara kerjanya:\n mamasukan pasaword berulang2..\n sehingga menemukan password yg TEPAT!!\n Kena tahu cara kerjanya juga.\n\n")
 	wordlist = input("Masukan Senarai Passwordnya : ")
 	request()
