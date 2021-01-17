@@ -49,6 +49,6 @@ def request():
 if __name__=='__main__':
 	name = ("\n\n ---------- Facebook BruteForce -----------")
 	print(name)
-	print(" *** [  Untuk Godam Akaun Facebook  ] ***\n\n cara kerjanya:\n mamasukan pasaword berulang2..\n sehingga menemukan password yg TEPAT!!\n Kena tahu cara kerjanya juga.\n\n")
+	print(" *** [  Untuk Godam Akaun Facebook  ] ***\n\n cara kerjanya:\n mamasukan pasaword berulang2..\n sehingga menemukan password yg tepat\n kini, anda tahu cara kerjanya..\n\n")
 	wordlist = input("Masukan Senarai Passwordnya : ")
 	request()
